@@ -1,4 +1,3 @@
-*.sh  -diff -merge -text
-*.dll -diff -merge -text
-zlib.3.pdf -diff -merge -text
-doc/crc-doc.1.0.pdf -diff -merge -text
+*.sh  -filter=unspecified -diff=unspecified -merge=unspecified -text=unspecified
+*.dll -filter=unspecified -diff=unspecified -merge=unspecified -text=unspecified
+*.pdf -filter=unspecified -diff=unspecified -merge=unspecified -text=unspecified
