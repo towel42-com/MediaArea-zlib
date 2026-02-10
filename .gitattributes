@@ -1,0 +1,7 @@
+*.png filter=lfs diff=lfs merge=lfs -text
+#QtDebugTools/OnShoreCSDbgEE filter=lfs diff=lfs merge=lfs -text
+#QtDebugTools/OnShoreCSDbgEE.dll filter=lfs diff=lfs merge=lfs -text
+#QtDebugTools/OnShoreCSDbgEE.zip filter=lfs diff=lfs merge=lfs -text
+*.sh  -diff -merge -text
+*.dll -diff -merge -text
+*.pdf -diff -merge -text
